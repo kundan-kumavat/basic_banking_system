@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +11,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(0, 0, 0);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.navbar a{
+  margin-left: 4rem;
+}
+
+.button{
+  background-color: #0093E9;
+}
+
+td{
+  text-align: center;
+}
+
+table, th, td{
+  border: 1px solid #fff;
+  border-collapse: collapse;
+}
+
+th, td{
+  padding: 1rem;
+}
+
+.nav a{
+  padding: 1rem;
 }
